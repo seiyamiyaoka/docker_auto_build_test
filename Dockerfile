@@ -1,3 +1,3 @@
-FROM nginx
+FROM dockersamples/static-site
 
-COPY ./ /usr/share/nginx/html
+ENV AUTHOR="author name"
